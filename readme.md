@@ -73,3 +73,44 @@ boolean vazia = nomes.isEmpty();
 ```
 
 ## java.util.Queue
+
+A fila garante a ordem de inserção e não permite mudança dna ordem. FIFO.
+
+### Criando um fila
+
+```java
+Queue<String> fila = new LinkedList<>();
+
+fila.add("Gabriel");
+fila.add("Angela");
+fila.add("Rosana");
+fila.add("Marcos");
+
+System.out.println(fila); // [Gabriel, Angela, Rosana, Marcos]
+```
+
+### Poll - retorna o primeiro elemento e remove da fila
+```java
+Queue<String> fila = new LinkedList<>();
+
+// ...
+
+String primeiroElemento = fila.poll(); 
+
+System.out.println(primeiroElemento); // Gabriel
+
+System.out.println(fila); // [Angela, Rosana, Marcos]
+```
+
+### Peek - retorna o primeiro elemento mas não remove da fila
+```java
+Queue<String> fila = new LinkedList<>();
+
+// ...
+
+String primeiroElemento = fila.peek(); 
+
+System.out.println(primeiroElemento); // Gabriel
+
+System.out.println(fila); // [Gabriel, Angela, Rosana, Marcos]
+```
