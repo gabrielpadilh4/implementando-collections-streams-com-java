@@ -1,5 +1,11 @@
 # Implementando Collections e Streams com Java
 
+Tabela de conteudos
+=================
+<!--ts-->
+    * [java.util.List](#java.util.list)
+<!--te-->
+
 ## java.util.List
 
 - java.util.ArrayList 
