@@ -4,6 +4,7 @@ Tabela de conteudos
 =================
 <!--ts-->
     * [java.util.List](#java.util.list)
+    * [java.util.Queue](#java.util.queue)
 <!--te-->
 
 ## java.util.List
@@ -76,3 +77,5 @@ boolean contemEl = nomes.contains("Gabriel"); // objeto
 ```java
 boolean vazia = nomes.isEmpty(); 
 ```
+
+## java.util.Queue
