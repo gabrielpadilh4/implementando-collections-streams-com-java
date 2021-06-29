@@ -1,11 +1,5 @@
 # Implementando Collections e Streams com Java
 
-Tabela de conteudos
-=================
-<!--ts-->
-    * [java.util.List](#java.util.list)
-    * [java.util.Queue](#java.util.queue)
-<!--te-->
 
 ## java.util.List
 
